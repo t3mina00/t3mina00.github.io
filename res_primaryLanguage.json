@@ -127,6 +127,103 @@
         ]
       },
       {
+        "title": "Multilingual Grammar Correction Web Service",
+        "period": "Jul 2024 - Current",
+        "purpose": "Internship Project",
+        "description": "Contributing remotely as an intern to a 10-member team developing a multilingual grammar correction service, creating and optimizing Python scripts for training datasets.",
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ],
+        "withCode": "0",
+        "overview": "Participating remotely as an intern in a 10-member team developing a multilingual grammar correction web service similar to Grammarly. Responsible for creating Python scripts to generate large-scale datasets for training AI models that correct grammatical errors. Optimized these scripts to improve performance and reduce execution time for massive data processing, focusing on English and Arabic dataset generation.",
+        "appFeatures": [
+          "Multilingual Grammar Error Detection", 
+          "Grammar and Style Suggestions", 
+          "Real-Time Text Correction"
+        ],
+        "myRoles": [
+          {
+            "type": "Backend",
+            "content": "Created Python scripts to generate training data / Optimized scripts for large-scale data processing"
+          }
+        ]
+      },
+      {
+        "title": "RPA System for Automated Order Entry",
+        "period": "Dec 2023 - May 2024",
+        "purpose": "Internship Project",
+        "description": "Contributed remotely as an intern in a 3-member team developing a Python-based RPA system to automate manual order entry between systems.",
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-selenium-original",
+            "name": "selenium"
+          },
+          {
+            "class": "devicon-mysql-original",
+            "name": "MySQL"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "docker"
+          }
+        ],
+        "withCode": "0",
+        "overview": "Participated remotely as an intern in a 3-member team to develop an RPA system automating the manual transfer of order data from emails and order forms into a dedicated system. Built a Python automation script using Selenium that reads order requests from one system and automatically inputs them into another system on an hourly schedule.",
+        "appFeatures": [
+          "Automated Reading & Input of Order Data", 
+          "Scheduled Execution of Automatic Input (Hourly)", 
+          "Error Notification Emails When Issues Occur"
+        ],
+        "myRoles": [
+          {
+            "type": "Backend",
+            "content": "Implemented Python script using Selenium for automated order entry"
+          }
+        ]
+      },
+      {
+        "title": "Payment Terminal Driver Support Apps",
+        "period": "Jun 2020 - Dec 2020",
+        "purpose": "Professional Project",
+        "description": "Developed Windows desktop applications using C#/WPF/.NET Framework to demo and test a payment terminal driver.",
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-dot-net-plain",
+            "name": ".NET"
+          }
+        ],
+        "withCode": "0",
+        "overview": "Participated in a 5-member project to develop a driver for a payment terminal. To support testing and demonstration, created two Windows desktop applications in C# using .NET Framework and WPF: a demo app to simulate payments through the terminal and a verification app to log and display communication parameters and responses for testing the driver’s functionality.",
+        "appFeatures": [
+          "Select Payment Method", 
+          "Input Amount and Trigger Payment", 
+          "Terminal Accepts Payment with Selected Method and Amount",
+          "Send Test Parameters to the Payment Terminal",
+          "Display Returned Values on Screen",
+          "Output Communication Logs to File"
+        ],
+        "myRoles": [
+          {
+            "type": "Frontend",
+            "content": "Build Windows desktop apps in C# using .NET Framework"
+          }
+        ]
+      },
+      {
         "title": "Movie Discovery & Review Web App",
         "period": "Oct 2024 - Dec 2024",
         "purpose": "Academic Project",
@@ -177,28 +274,62 @@
         ]
       },
       {
-        "title": "Multilingual Grammar Correction Web Service",
-        "period": "Jul 2024 - ",
-        "purpose": "Internship Project",
-        "description": "Contributing remotely as an intern to a 10-member team developing a multilingual grammar correction service, creating and optimizing Python scripts for training datasets.",
-        "url": "",
+        "title": "ESP32 Plant Monitoring System",
+        "period": "Aug 2025 - Current",
+        "purpose": "Personal Project",
+        "description": "Built a personal IoT project using ESP32 to monitor soil moisture and light levels, sending data and alerts to Blynk.",
+        "url": "https://github.com/t3mina00/Soil-Moisture-Monitor",
         "technologies": [
           {
-            "class": "devicon-python-plain",
-            "name": "Python"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           }
         ],
         "withCode": "0",
-        "overview": "Participating remotely as an intern in a 10-member team developing a multilingual grammar correction web service similar to Grammarly. Responsible for creating Python scripts to generate large-scale datasets for training AI models that correct grammatical errors. Optimized these scripts to improve performance and reduce execution time for massive data processing, focusing on English and Arabic dataset generation.",
+        "overview": "Independently developed an embedded IoT project using ESP32 DevkitC to monitor potted plant conditions. The system measures soil moisture hourly and sends data to Blynk, triggering notifications when moisture falls below a threshold. Light intensity is measured every second, and the daily total is transmitted to Blynk. Implemented using FreeRTOS APIs (tasks, queues) with PlatformIO and VSCode.",
         "appFeatures": [
-          "Multilingual Grammar Error Detection", 
-          "Grammar and Style Suggestions", 
-          "Real-Time Text Correction"
+          "Hourly Soil Moisture Measurement", 
+          "Blynk Data Transmission & Low-Moisture Notifications", 
+          "Per-Second Light Intensity Measurement", 
+          "Daily Total Light Value Sent to Blynk", 
+          "FreeRTOS Tasks & Queues for Parallel Processing"
         ],
         "myRoles": [
           {
-            "type": "Backend",
-            "content": "Created Python scripts to generate training data / Optimized scripts for large-scale data processing"
+            "type": "Embedded",
+            "content": "Built ESP32 system with Blynk using FreeRTOS APIs"
+          }
+        ]
+      },
+      {
+        "title": "Voice-Driven Smart Todo App",
+        "period": "Mar 2025 - May 2025",
+        "purpose": "Academic Project",
+        "description": "Co-developed an Android app in Kotlin that creates and categorizes tasks automatically from voice input",
+        "url": "https://github.com/MobileDevelopGroup35/VoiceLinkApp",
+        "technologies": [
+          {
+            "class": "devicon-kotlin-plain",
+            "name": "Kotlin"
+          },
+          {
+            "class": "devicon-jetpackcompose-plain-wordmark",
+            "name": "Jetpack Compose"
+          }
+        ],
+        "withCode": "0",
+        "overview": "As part of a 2-member university course project, built an Android application using Kotlin that allows users to create todo tasks by voice. Leveraging the Android SpeechRecognizer API, the app automatically assigns priority levels and categorizes tasks based on spoken content. I designed the app’s UI screens using Material Design 3 and Jetpack Compose.",
+        "appFeatures": [
+          "Voice Input via Android SpeechRecognizer API", 
+          "Automatic Task Priority Assignment", 
+          "Automatic Category Classification", 
+          "Create and Manage Todo Tasks from Voice Input", 
+          "Modern UI with Material Design 3 & Jetpack Compose"
+        ],
+        "myRoles": [
+          {
+            "type": "Frontend",
+            "content": "Implemented App screen using Jetpack Compose"
           }
         ]
       }
