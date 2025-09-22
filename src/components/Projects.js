@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import ProjectTypeChip from "./ProjectTypeChip";
 
 class Projects extends Component {
   constructor(props) {
@@ -28,10 +29,10 @@ class Projects extends Component {
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
+                  <ProjectTypeChip type={projects.purpose}/>
                   <p className="project-title">{projects.title}</p>
                   <p className="project-short-description">{projects.description}</p>
                   <p className="project-period">{projects.period}</p>
-                  <p className="project-purpose">{projects.purpose}</p>
                   <ul className="list-inline mx-auto">
                     {projects.technologies.map((icons, i) => {
                     return (

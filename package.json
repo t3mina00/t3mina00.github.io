@@ -1,5 +1,6 @@
 {
   "name": "react-frontend-dev-portfolio",
+  "homepage": "http://t3mina00.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,7 +47,7 @@
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.12",
     "@iconify/react": "^3.1.6",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "sass": "^1.42.1"
   }
 }
