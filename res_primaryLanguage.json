@@ -1,0 +1,206 @@
+{
+    "basic_info": {
+      "description_header": "Hi, I'm Natsuki Mine — a software developer with over three years of professional experience.",
+      "description": "I'm currently pursuing a bachelor degree in Information Technology at OAMK. I have been involved in some projects developing applications both independently and as part of teams. I'm passionate about delivering reliable, user-focused software and enjoy learning new technologies!",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects"
+      }
+    },
+    "projects": [
+      {
+        "title": "Internal Web Application for Employee Training Management",
+        "period": "Jan 2025 - Mar 2025",
+        "purpose": "Company Oriented Project",
+        "description": "Developed an internal web app with Laravel and MariaDB to manage employee training records, handling DB design, UI, and full-stack implementation.",
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-laravel-original",
+            "name": "Laravel"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-mariadb-original",
+            "name": "MariaDB"
+          }
+        ],
+        "withCode": "0",
+        "overview": "Developed an internal web application to manage employee training records for Sanmina. The project's purpose was to renew an old system to a new one. The system allows users to manage employees and training courses. The project was implemented solo, including database design, UI design, and full-stack development using Laravel and MariaDB.",
+        "appFeatures": [
+          "Login / Logout", 
+          "Password Change", 
+          "Admin: Add Users", 
+          "Add / Edit / Delete Trainings", 
+          "Add / Edit / Delete Employees", 
+          "Training List Display",
+          "Employee List Display",
+          "Training Search (Keyword, Category Filter)",
+          "Employee Search (Keyword, Category Filter)",
+          "Log Display"
+        ],
+        "myRoles": [
+          {
+            "type": "UI",
+            "content": "Designed user-friendly interface using Figma"
+          },
+          {
+            "type": "DB",
+            "content": "Designed DB structure using ER model"
+          },
+          {
+            "type": "Frontend",
+            "content": "Implemented UI with Blade templates"
+          },
+          {
+            "type": "Backend",
+            "content": "Implemented CRUD APIs using Laravel"
+          }
+        ]
+      },
+      {
+        "title": "iPad POS Register App Development & Maintenance",
+        "period": "Dec 2020 - Jul 2023",
+        "purpose": "Professional Project",
+        "description": "Developed and maintained an iPad POS app with Laravel backend, handling feature updates, bug fixes, and database changes.",
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-swift-plain",
+            "name": "Swift"
+          },
+          {
+            "class": "devicon-realm-plain",
+            "name": "realm"
+          },
+          {
+            "class": "devicon-laravel-original",
+            "name": "Laravel"
+          },
+          {
+            "class": "devicon-mysql-original",
+            "name": "MySQL"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain-wordmark",
+            "name": "aws"
+          }
+        ],
+        "withCode": "0",
+        "overview": "Developed and maintained an iPad POS register application for retail use. Worked in a 3-member team, responsible for implementing new features, updating business logic, and handling database modifications in response to feature requests. Acted as the main support contact for clients, performed bug investigation and fixes, and ensured compatibility with iOS 15/16 and updated Xcode environments.",
+        "appFeatures": [
+          "Open / Close Register", 
+          "Sales Processing", 
+          "Returns Processing", 
+          "Barcode Scanning", 
+          "Receipt Printing",
+          "Customer Information Lookup"
+        ],
+        "myRoles": [
+          {
+            "type": "DB",
+            "content": "Added tables and modified SQL for new functionality"
+          },
+          {
+            "type": "Frontend",
+            "content": "Developed iPad app features in response to requirements"
+          },
+          {
+            "type": "Backend",
+            "content": "Implemented Web API features using Laravel"
+          },
+          {
+            "type": "Maintenance",
+            "content": "Investigated and fixed customer-reported bugs / Updated Xcode and ensured iOS 15/16 compatibility"
+          },
+          {
+            "type": "Other",
+            "content": "Acted as main point of contact in maintenance meetings"
+          }
+        ]
+      },
+      {
+        "title": "Movie Discovery & Review Web App",
+        "period": "Oct 2024 - Dec 2024",
+        "purpose": "Academic Project",
+        "description": "Developed a movie search and review web app in a 7-member university project using React, Express, and PostgreSQL.",
+        "url": "https://github.com/AdvancedProjectGroup5/main",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "express"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-azure-plain",
+            "name": "Azure"
+          }
+        ],
+        "withCode": "0",
+        "overview": "As part of a 7-member university course project, built a full-stack web application for discovering movies, posting reviews, and creating groups of users and favorite films. The frontend was developed in React.js and the backend in Express with PostgreSQL. I implemented the movie detail display page, created signup/login/logout/account deletion/favorite APIs, wrote automated tests for the REST API, and deployed the frontend, backend, and database to Azure.",
+        "appFeatures": [
+          "Sign Up", 
+          "Login / Logout", 
+          "Account Deletion", 
+          "Search Movies & Showtimes", 
+          "Post Movie Reviews",
+          "Add Movies to Favorites",
+          "Create Groups (Add Users & Movies)"
+        ],
+        "myRoles": [
+          {
+            "type": "Frontend",
+            "content": "Built movie detail display page in React.js"
+          },
+          {
+            "type": "Backend",
+            "content": "Implemented signup, login, logout, account delete, favorites APIs / Created REST API automated tests"
+          },
+          {
+            "type": "Other",
+            "content": "Deployed frontend, backend, and DB to Azure"
+          }
+        ]
+      },
+      {
+        "title": "Multilingual Grammar Correction Web Service",
+        "period": "Jul 2024 - ",
+        "purpose": "Internship Project",
+        "description": "Contributing remotely as an intern to a 10-member team developing a multilingual grammar correction service, creating and optimizing Python scripts for training datasets.",
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ],
+        "withCode": "0",
+        "overview": "Participating remotely as an intern in a 10-member team developing a multilingual grammar correction web service similar to Grammarly. Responsible for creating Python scripts to generate large-scale datasets for training AI models that correct grammatical errors. Optimized these scripts to improve performance and reduce execution time for massive data processing, focusing on English and Arabic dataset generation.",
+        "appFeatures": [
+          "Multilingual Grammar Error Detection", 
+          "Grammar and Style Suggestions", 
+          "Real-Time Text Correction"
+        ],
+        "myRoles": [
+          {
+            "type": "Backend",
+            "content": "Created Python scripts to generate training data / Optimized scripts for large-scale data processing"
+          }
+        ]
+      }
+    ]
+  }
