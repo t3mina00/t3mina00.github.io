@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Switch from "react-switch";
+import  { ReactTyped } from 'react-typed';
 
 class Header extends Component {
   titles = [];
@@ -26,12 +26,27 @@ class Header extends Component {
   render() {
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
-      //return <Typical className="title-styles" steps={this.titles} loop={50} />
-      <p>{this.titles}</p>
+      return <div className="title-anime-div">
+        <ReactTyped
+          className="title-anime-style"
+          strings={[
+            'Experienced Software Developer',
+          ]}
+          typeSpeed={100} 
+          showCursor={false}                      
+        />
+        <ReactTyped
+          className="title-anime-style"
+          strings={[
+            '3rd Year Student @OAMK'
+          ]}
+          typeSpeed={100} 
+          showCursor={false}                         
+        />
+      </div>
     }, (props, prevProp) => true);
 
     return (
