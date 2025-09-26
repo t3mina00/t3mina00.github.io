@@ -9,10 +9,10 @@
     },
     "projects": [
       {
-        "title": "Internal Web Application for Employee Training Management",
-        "period": "Jan 2025 - Mar 2025",
+        "title": "Sisäinen verkkosovellus työntekijöiden koulutusten hallintaan",
+        "period": "Tam 2025 - Maa 2025",
         "purpose": "Company Oriented Project",
-        "description": "Developed an internal web app with Laravel and MariaDB to manage employee training records, handling DB design, UI, and full-stack implementation.",
+        "description": "Kehitin sisäisen Laravel- ja MariaDB-pohjaisen verkkosovelluksen työntekijöiden koulutustietojen hallintaan, sisältäen tietokannan suunnittelun, käyttöliittymän ja koko pinon toteutuksen.",
         "url": "",
         "technologies": [
           {
@@ -33,7 +33,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "Developed an internal web application to manage employee training records for Sanmina. The project's purpose was to renew an old system to a new one. The system allows users to manage employees and training courses. The project was implemented solo, including database design, UI design, and full-stack development using Laravel and MariaDB.",
+        "overview": "Kehitin Sanminalle sisäisen verkkosovelluksen työntekijöiden koulutustietojen hallintaan. Projektin tarkoituksena oli uudistaa vanha järjestelmä uuteen. Järjestelmä mahdollistaa työntekijöiden ja koulutusten hallinnan. Toteutin projektin yksin, mukaan lukien tietokannan suunnittelun, käyttöliittymän suunnittelun ja koko pinon kehityksen Laravelilla ja MariaDB:llä.",
         "appFeatures": [
           "Login / Logout", 
           "Password Change", 
@@ -49,27 +49,27 @@
         "myRoles": [
           {
             "type": "UI",
-            "content": "Designed user-friendly interface using Figma"
+            "content": "Suunnittelin käyttäjäystävällisen käyttöliittymän Figmaa käyttäen"
           },
           {
             "type": "DB",
-            "content": "Designed DB structure using ER model"
+            "content": "Suunnittelin tietokantarakenteen ER-mallin avulla"
           },
           {
             "type": "Frontend",
-            "content": "Implemented UI with Blade templates"
+            "content": "Toteutin käyttöliittymän Blade-malleilla ja jQueryllä"
           },
           {
             "type": "Backend",
-            "content": "Implemented CRUD APIs using Laravel"
+            "content": "Toteutin CRUD-rajapinnat Laravelilla"
           }
         ]
       },
       {
-        "title": "iPad POS Register App Development & Maintenance",
-        "period": "Dec 2020 - Jul 2023",
+        "title": "iPad POS -kassasovelluksen kehitys ja ylläpito",
+        "period": "Jou 2020 - Hei 2023",
         "purpose": "Professional Project",
-        "description": "Developed and maintained an iPad POS app with Laravel backend, handling feature updates, bug fixes, and database changes.",
+        "description": "Kehitin ja ylläpidin iPadin POS-kassasovellusta, jonka taustajärjestelmä oli Laravelilla, vastaten ominaisuuspäivityksistä, virheenkorjauksista ja tietokantamuutoksista.",
         "url": "",
         "technologies": [
           {
@@ -94,7 +94,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "Developed and maintained an iPad POS register application for retail use. Worked in a 3-member team, responsible for implementing new features, updating business logic, and handling database modifications in response to feature requests. Acted as the main support contact for clients, performed bug investigation and fixes, and ensured compatibility with iOS 15/16 and updated Xcode environments.",
+        "overview": "Kehitin ja ylläpidin iPadin POS-kassasovellusta vähittäiskaupan käyttöön. Työskentelin kolmen hengen tiimissä ja vastasin uusien ominaisuuksien toteuttamisesta, liiketoimintalogiikan päivittämisestä ja tietokantamuutoksista ominaisuuspyyntöjen mukaisesti. Toimin asiakkaiden pääyhteyshenkilönä ylläpidossa, tutkin ja korjasin virheitä, varmistin yhteensopivuuden iOS 15/16:n kanssa sekä päivitin Xcode-ympäristöt.",
         "appFeatures": [
           "Open / Close Register", 
           "Sales Processing", 
@@ -106,23 +106,23 @@
         "myRoles": [
           {
             "type": "DB",
-            "content": "Added tables and modified SQL for new functionality"
+            "content": "Lisäsin tauluja ja muokkasin SQL:ää uutta toiminnallisuutta varten"
           },
           {
             "type": "Frontend",
-            "content": "Developed iPad app features in response to requirements"
+            "content": "Toteutin iPad-sovelluksen ominaisuuksia vaatimusten mukaisesti"
           },
           {
             "type": "Backend",
-            "content": "Implemented Web API features using Laravel"
+            "content": "Toteutin Web API -toimintoja Laravelilla"
           },
           {
             "type": "Maintenance",
-            "content": "Investigated and fixed customer-reported bugs / Updated Xcode and ensured iOS 15/16 compatibility"
+            "content": "Tutkin ja korjasin asiakkaiden raportoimia virheitä / Päivitin Xcoden ja varmistin iOS 15/16 -yhteensopivuuden"
           },
           {
             "type": "Other",
-            "content": "Acted as main point of contact in maintenance meetings"
+            "content": "Toimin pääasiallisena yhteyshenkilönä ylläpitokokouksissa"
           }
         ]
       },
