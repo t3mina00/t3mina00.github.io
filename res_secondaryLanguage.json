@@ -3,16 +3,21 @@
       "description_header": "Hei, olen Natsuki Mine — ohjelmistokehittäjä, jolla on yli kolmen vuoden työkokemus.",
       "description": "Opiskelen tällä hetkellä tietotekniikan kandidaatin tutkintoa OAMK:ssa. Olen osallistunut useisiin projekteihin kehittäen sovelluksia sekä itsenäisesti että osana tiimejä. Olen intohimoinen luotettavan ja käyttäjälähtöisen ohjelmiston toimittamiseen ja nautin uusien teknologioiden oppimisesta!",
       "section_name": {
+        "home": "Etusivu",
         "about": "Tietoa minusta",
         "projects": "Projektit"
-      }
+      },
+      "titles": [
+        "Kokenut Fullstack-kehittäjä",
+        "Kolmannen vuoden opiskelija, OAMK"
+      ]
     },
     "projects": [
       {
         "title": "Sisäinen verkkosovellus työntekijöiden koulutusten hallintaan",
         "period": "Tam 2025 - Maa 2025",
         "purpose": "Company Oriented Project",
-        "description": "Kehitin sisäisen Laravel- ja MariaDB-pohjaisen verkkosovelluksen työntekijöiden koulutustietojen hallintaan, sisältäen tietokannan suunnittelun, käyttöliittymän ja koko pinon toteutuksen.",
+        "description": "Kehitin sisäisen Laravel- ja MariaDB-pohjaisen verkkosovelluksen työntekijöiden koulutustietojen hallintaan, sisältäen tietokannan suunnittelun, käyttöliittymän ja toimin fullstack kehittäjänä.",
         "url": "",
         "technologies": [
           {
@@ -69,7 +74,7 @@
         "title": "iPad POS -kassasovelluksen kehitys ja ylläpito",
         "period": "Jou 2020 - Hei 2023",
         "purpose": "Professional Project",
-        "description": "Kehitin ja ylläpidin iPadin POS-kassasovellusta, jonka taustajärjestelmä oli Laravelilla, vastaten ominaisuuspäivityksistä, virheenkorjauksista ja tietokantamuutoksista.",
+        "description": "Kehitin ja ylläpidin iPadin POS-kassasovellusta, jonka taustajärjestelmä toteutettiin laravelilla, vastaten ominaisuuspäivityksistä, virheenkorjauksista ja tietokantamuutoksista.",
         "url": "",
         "technologies": [
           {
@@ -127,10 +132,10 @@
         ]
       },
       {
-        "title": "Multilingual Grammar Correction Web Service",
-        "period": "Jul 2024 - Current",
+        "title": "Monikielinen kielioppikorjausverkkopalvelu",
+        "period": "Hei 2024 - Nykypäivä",
         "purpose": "Internship Project",
-        "description": "Contributing remotely as an intern to a 10-member team developing a multilingual grammar correction service, creating and optimizing Python scripts for training datasets.",
+        "description": "Osallistun etätyönä harjoittelijana kymmenen hengen tiimissä, joka kehittää monikielistä kielioppikorjauspalvelua. Vastaan Python-skriptien luomisesta ja optimoinnista tekoälymallien opetusdatan tuottamista varten.",
         "url": "",
         "technologies": [
           {
@@ -139,7 +144,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "Participating remotely as an intern in a 10-member team developing a multilingual grammar correction web service similar to Grammarly. Responsible for creating Python scripts to generate large-scale datasets for training AI models that correct grammatical errors. Optimized these scripts to improve performance and reduce execution time for massive data processing, focusing on English and Arabic dataset generation.",
+        "overview": "Osallistun etätyönä harjoittelijana kymmenen hengen tiimissä, joka kehittää Grammarlyn kaltaista monikielistä kielioppikorjausverkkopalvelua. Vastaan Python-skriptien kehittämisestä suurten opetusaineistojen luomiseksi tekoälymalleille, jotka korjaavat kielioppivirheitä. Optimoin skriptejä parantaakseni suorituskykyä ja lyhentääkseni ajonaikoja massiivisen datan käsittelyssä, erityisesti englannin ja arabian aineistoja varten.",
         "appFeatures": [
           "Multilingual Grammar Error Detection", 
           "Grammar and Style Suggestions", 
@@ -148,15 +153,15 @@
         "myRoles": [
           {
             "type": "Backend",
-            "content": "Created Python scripts to generate training data / Optimized scripts for large-scale data processing"
+            "content": "Loin Python-skriptejä opetusdatan tuottamiseen / Optimoin skriptejä suurten datamäärien käsittelyä varten"
           }
         ]
       },
       {
-        "title": "RPA System for Automated Order Entry",
-        "period": "Dec 2023 - May 2024",
+        "title": "RPA-järjestelmä tilaustietojen automaattiseen syöttöön",
+        "period": "Jou 2023 - Tou 2024",
         "purpose": "Internship Project",
-        "description": "Contributed remotely as an intern in a 3-member team developing a Python-based RPA system to automate manual order entry between systems.",
+        "description": "Osallistuin etätyönä harjoittelijana kolmen hengen tiimissä, joka kehitti Python-pohjaista RPA-järjestelmää tilaustietojen manuaalisen syöttämisen automatisoimiseksi eri järjestelmien välillä.",
         "url": "",
         "technologies": [
           {
@@ -177,7 +182,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "Participated remotely as an intern in a 3-member team to develop an RPA system automating the manual transfer of order data from emails and order forms into a dedicated system. Built a Python automation script using Selenium that reads order requests from one system and automatically inputs them into another system on an hourly schedule.",
+        "overview": "Osallistuin etätyönä harjoittelijana kolmen hengen tiimissä, joka kehitti RPA-järjestelmän tilaustietojen automaattiseen siirtoon sähköposteista ja tilauslomakkeista erilliseen järjestelmään. Toteutin Pythonilla ja Seleniumilla automaatioskriptin, joka lukee tilauspyynnöt yhdestä järjestelmästä ja syöttää ne automaattisesti toiseen järjestelmään tunnin välein ajastetusti.",
         "appFeatures": [
           "Automated Reading & Input of Order Data", 
           "Scheduled Execution of Automatic Input (Hourly)", 
@@ -186,15 +191,15 @@
         "myRoles": [
           {
             "type": "Backend",
-            "content": "Implemented Python script using Selenium for automated order entry"
+            "content": "Toteutin Python- ja Selenium-pohjaisen skriptin tilaustietojen automaattista syöttöä varten"
           }
         ]
       },
       {
-        "title": "Payment Terminal Driver Support Apps",
-        "period": "Jun 2020 - Dec 2020",
+        "title": "Maksupäätteen ajurin tukisovellukset",
+        "period": "Kes 2020 - Jou 2020",
         "purpose": "Professional Project",
-        "description": "Developed Windows desktop applications using C#/WPF/.NET Framework to demo and test a payment terminal driver.",
+        "description": "Kehitin Windows-työpöytäsovelluksia C#:lla, WPF:llä ja .NET Frameworkilla maksupäätteen ajurin esittelyä ja testausta varten.",
         "url": "",
         "technologies": [
           {
@@ -207,7 +212,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "Participated in a 5-member project to develop a driver for a payment terminal. To support testing and demonstration, created two Windows desktop applications in C# using .NET Framework and WPF: a demo app to simulate payments through the terminal and a verification app to log and display communication parameters and responses for testing the driver’s functionality.",
+        "overview": "Osallistuin viiden hengen projektiin, jossa kehitettiin ajuri maksupäätteelle. Testauksen ja esittelyn tueksi loin kaksi Windows-työpöytäsovellusta C#:lla käyttäen .NET Frameworkia ja WPF:ää: demoversio, joka simuloi maksutapahtumia päätteen kautta, sekä testisovellus, joka kirjaa ja näyttää viestintäparametrit ja vastaukset ajurin toiminnallisuuden testaamiseksi.",
         "appFeatures": [
           "Select Payment Method", 
           "Input Amount and Trigger Payment", 
@@ -219,15 +224,15 @@
         "myRoles": [
           {
             "type": "Frontend",
-            "content": "Build Windows desktop apps in C# using .NET Framework"
+            "content": "Rakensin Windows-työpöytäsovelluksia C#:lla käyttäen .NET Frameworkia"
           }
         ]
       },
       {
-        "title": "Movie Discovery & Review Web App",
-        "period": "Oct 2024 - Dec 2024",
+        "title": "Elokuvien haku- ja arvosteluverkkosovellus",
+        "period": "Lok 2024 - Jou 2024",
         "purpose": "Academic Project",
-        "description": "Developed a movie search and review web app in a 7-member university project using React, Express, and PostgreSQL.",
+        "description": "Kehitin React-, Express- ja PostgreSQL-teknologioita hyödyntävän elokuvien haku- ja arvosteluverkkosovelluksen osana seitsemän hengen yliopistoprojektia.",
         "url": "https://github.com/AdvancedProjectGroup5/main",
         "technologies": [
           {
@@ -248,7 +253,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "As part of a 7-member university course project, built a full-stack web application for discovering movies, posting reviews, and creating groups of users and favorite films. The frontend was developed in React.js and the backend in Express with PostgreSQL. I implemented the movie detail display page, created signup/login/logout/account deletion/favorite APIs, wrote automated tests for the REST API, and deployed the frontend, backend, and database to Azure.",
+        "overview": "Osallistuin seitsemän hengen yliopistoprojektiin, jossa rakennettiin full stack -verkkosovellus elokuvien löytämiseen, arvostelujen julkaisemiseen sekä käyttäjä- ja suosikkiryhmien luomiseen. Frontend kehitettiin React.js:llä ja backend Expressillä ja PostgreSQL:llä. Toteutin elokuvan yksityiskohtaisen näkymän, loin API:t kirjautumiselle, rekisteröitymiselle, uloskirjautumiselle, tilin poistolle ja suosikeille, kirjoitin REST API:n automaattiset testit sekä julkaisin frontendin, backendin ja tietokannan Azureen.",
         "appFeatures": [
           "Sign Up", 
           "Login / Logout", 
@@ -261,23 +266,23 @@
         "myRoles": [
           {
             "type": "Frontend",
-            "content": "Built movie detail display page in React.js"
+            "content": "Rakensin elokuvan yksityiskohtaisen näkymän React.js:llä"
           },
           {
             "type": "Backend",
-            "content": "Implemented signup, login, logout, account delete, favorites APIs / Created REST API automated tests"
+            "content": "Toteutin kirjautumis-, rekisteröitymis-, uloskirjautumis-, tilinpoisto- ja suosikki-API:t / Laadin REST API:n automaattiset testit"
           },
           {
             "type": "Other",
-            "content": "Deployed frontend, backend, and DB to Azure"
+            "content": "Julkaisin frontendin, backendin ja tietokannan Azureen"
           }
         ]
       },
       {
-        "title": "ESP32 Plant Monitoring System",
-        "period": "Aug 2025 - Current",
+        "title": "ESP32-kasvien seurantajärjestelmä",
+        "period": "Elo 2025 - Nykypäivä",
         "purpose": "Personal Project",
-        "description": "Built a personal IoT project using ESP32 to monitor soil moisture and light levels, sending data and alerts to Blynk.",
+        "description": "Rakensin henkilökohtaisen IoT-projektin ESP32:lla kasvien kosteuden ja valon määrän seuraamiseksi sekä tietojen ja ilmoitusten lähettämiseksi Blynk-palveluun.",
         "url": "https://github.com/t3mina00/Soil-Moisture-Monitor",
         "technologies": [
           {
@@ -286,7 +291,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "Independently developed an embedded IoT project using ESP32 DevkitC to monitor potted plant conditions. The system measures soil moisture hourly and sends data to Blynk, triggering notifications when moisture falls below a threshold. Light intensity is measured every second, and the daily total is transmitted to Blynk. Implemented using FreeRTOS APIs (tasks, queues) with PlatformIO and VSCode.",
+        "overview": "Kehitin itsenäisesti sulautetun IoT-projektin ESP32 DevkitC -alustalla ruukkukasvien olosuhteiden seurantaan. Järjestelmä mittaa maaperän kosteuden tunnin välein ja lähettää tiedot Blynkiin, laukaisten ilmoituksen, jos kosteus laskee asetetun rajan alle. Valon voimakkuus mitataan sekunnin välein, ja päivän kokonaisarvo lähetetään päivittäin Blynkiin. Toteutin järjestelmän käyttäen FreeRTOS-rajapintoja (tehtävät, jonot) PlatformIO- ja VSCode-ympäristöissä.",
         "appFeatures": [
           "Hourly Soil Moisture Measurement", 
           "Blynk Data Transmission & Low-Moisture Notifications", 
@@ -297,15 +302,15 @@
         "myRoles": [
           {
             "type": "Embedded",
-            "content": "Built ESP32 system with Blynk using FreeRTOS APIs"
+            "content": "Rakensin ESP32-järjestelmän Blynk-integraatiolla käyttäen FreeRTOS-rajapintoja"
           }
         ]
       },
       {
-        "title": "Voice-Driven Smart Todo App",
-        "period": "Mar 2025 - May 2025",
+        "title": "Ääniohjattu älykäs tehtäväsovellus",
+        "period": "Maa 2025 - Tou 2025",
         "purpose": "Academic Project",
-        "description": "Co-developed an Android app in Kotlin that creates and categorizes tasks automatically from voice input",
+        "description": "Kehitin yhdessä toisen opiskelijan kanssa Kotlinilla Android-sovelluksen, joka luo ja luokittelee tehtävät automaattisesti äänisyötteen perusteella.",
         "url": "https://github.com/MobileDevelopGroup35/VoiceLinkApp",
         "technologies": [
           {
@@ -318,7 +323,7 @@
           }
         ],
         "withCode": "0",
-        "overview": "As part of a 2-member university course project, built an Android application using Kotlin that allows users to create todo tasks by voice. Leveraging the Android SpeechRecognizer API, the app automatically assigns priority levels and categorizes tasks based on spoken content. I designed the app’s UI screens using Material Design 3 and Jetpack Compose.",
+        "overview": "Osallistuin kahden hengen yliopistoprojektiin, jossa kehitettiin Kotlinilla Android-sovellus, jonka avulla käyttäjä voi luoda tehtäviä puheella. Sovellus hyödyntää Androidin SpeechRecognizer-rajapintaa määrittääkseen tehtävien prioriteetit ja kategoriat automaattisesti puhutun sisällön perusteella. Suunnittelin ja toteutin sovelluksen käyttöliittymän Material Design 3:n ja Jetpack Composen avulla.",
         "appFeatures": [
           "Voice Input via Android SpeechRecognizer API", 
           "Automatic Task Priority Assignment", 
@@ -329,7 +334,7 @@
         "myRoles": [
           {
             "type": "Frontend",
-            "content": "Implemented App screen using Jetpack Compose"
+            "content": "Toteutin sovelluksen käyttöliittymän Jetpack Composella"
           }
         ]
       }
