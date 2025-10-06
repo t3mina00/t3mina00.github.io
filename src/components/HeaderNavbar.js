@@ -13,18 +13,23 @@ function HeaderNavbar(props) {
   const removeActive = () => {
     setIsActive(false)
   }
+
+  let home = props.resumeBasicInfo?.section_name?.home || "HOME";
+  let about = props.resumeBasicInfo?.section_name?.about || "About me";
+  let projects = props.resumeBasicInfo?.section_name?.projects || "Projects";
+    
   return (
     <div className={`${styles.navDiv}`}>
         <nav className={`${styles.navbar}`}>
             <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
                 <li onClick={removeActive}>
-                    <a href='#home' className={`${styles.navLink}`}>HOME</a>
+                    <a href='#home' className={`${styles.navLink}`}>{home}</a>
                 </li>
                 <li onClick={removeActive}>
-                    <a href='#about' className={`${styles.navLink}`}>ABOUT ME</a>
+                    <a href='#about' className={`${styles.navLink}`}>{about}</a>
                 </li>
                 <li onClick={removeActive}>
-                    <a href='#portfolio' className={`${styles.navLink}`}>PROJECTS</a>
+                    <a href='#portfolio' className={`${styles.navLink}`}>{projects}</a>
                 </li>
                 <li>
                     <LangSelector className={`${styles.navLink}`} selectLang={props.selectLang}/>

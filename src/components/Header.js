@@ -28,12 +28,15 @@ class Header extends Component {
       var name = this.props.sharedData.name;
     }
 
+    let title1 = this.props.resumeBasicInfo?.titles[0] || "Experienced Software Developer";
+    let title2 = this.props.resumeBasicInfo?.titles[1] || "3rd Year Student @OAMK";
+
     const HeaderTitleTypeAnimation = React.memo( () => {
       return <div className="title-anime-div">
         <ReactTyped
           className="title-anime-style"
           strings={[
-            'Experienced Software Developer',
+            title1
           ]}
           typeSpeed={100} 
           showCursor={false}                      
@@ -41,7 +44,7 @@ class Header extends Component {
         <ReactTyped
           className="title-anime-style"
           strings={[
-            '3rd Year Student @OAMK'
+            title2
           ]}
           typeSpeed={100} 
           showCursor={false}                         

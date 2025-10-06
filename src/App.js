@@ -67,8 +67,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HeaderNavbar selectLang={this.applyPickedLanguage}/>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <HeaderNavbar 
+          selectLang={this.applyPickedLanguage}
+          resumeBasicInfo={this.state.resumeData.basic_info}/>
+        <Header 
+          sharedData={this.state.sharedData.basic_info}
+          resumeBasicInfo={this.state.resumeData.basic_info}/>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}

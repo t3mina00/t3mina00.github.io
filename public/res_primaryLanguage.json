@@ -3,9 +3,14 @@
       "description_header": "Hi, I'm Natsuki Mine — a software developer with over three years of professional experience.",
       "description": "I'm currently pursuing a bachelor degree in Information Technology at OAMK. I have been involved in some projects developing applications both independently and as part of teams. I'm passionate about delivering reliable, user-focused software and enjoy learning new technologies!",
       "section_name": {
+        "home": "Home",
         "about": "About me",
         "projects": "Projects"
-      }
+      },
+      "titles": [
+        "Experienced Fullstack Developer",
+        "3rd Year Student @OAMK"
+      ]
     },
     "projects": [
       {
