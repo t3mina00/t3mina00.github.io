@@ -28,7 +28,8 @@ class ProjectDetailsModal extends Component {
       if (this.props.data.myRoles) {
         var myRoles = this.props.data.myRoles.map((role, index) => (
           <tr key={index}>
-            <td>{<RoleTypeChip type={role.type}/>} {role.content}</td>
+            <td className="role-chip-td">{<RoleTypeChip type={role.type}/>}</td>
+            <td className="role-content-td">{role.content}</td>
           </tr>
         ))
       }
